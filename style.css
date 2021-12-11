@@ -154,3 +154,49 @@ margin: 2rem 0;
     font-size: 1.5rem;
     line-height: 1.7;
         }
+        /* --container-3 start */
+        .product {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            
+        }
+        .product .prod-1 {
+            background: url(images/next-2.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            align-items: baseline;
+            justify-content:end;
+            flex-direction: column;
+            padding: 3rem 0;
+            
+        }
+        .product .prod-2 {
+            background: url(images/next-1.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            flex-direction: column;
+        }
+          .product .prod-1 h4 {
+              /* padding: -4rem 0; */
+              margin: 1rem auto;
+              text-align: center;
+          } 
+          .product .prod-1 p {
+            /* padding: -4rem 0; */
+            margin: 1rem auto;
+            text-align: center;
+        }
+        .product .prod-1 a {
+            /* padding: -4rem 0; */
+            margin: 1rem auto;
+            text-align: center;
+        }
