@@ -129,7 +129,7 @@ margin: 4rem 0;
 }
 .container-2 .row-2 {
     display: flex;
-    margin: 4rem 0 0;
+    margin: 4rem 0;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -154,7 +154,6 @@ margin: 2rem 0;
     font-size: 1.5rem;
     line-height: 1.7;
         }
-        /* --container-3 start */
         .product {
             width: 100%;
             display: flex;
@@ -171,8 +170,7 @@ margin: 2rem 0;
             align-items: baseline;
             justify-content:end;
             flex-direction: column;
-            padding: 3rem 0;
-            
+            padding: 6rem 0;      
         }
         .product .prod-2 {
             background: url(images/next-1.jpg);
@@ -182,21 +180,24 @@ margin: 2rem 0;
             height: 100vh;
             display: flex;
             align-items: baseline;
-            justify-content: center;
+            justify-content: end;
             flex-direction: column;
+            padding: 6rem 0;
         }
-          .product .prod-1 h4 {
-              /* padding: -4rem 0; */
-              margin: 1rem auto;
+          .product .prod-1 h4 , .product .prod-2 h4 {
+              margin: 1rem auto 2rem;
+              font-size: 2.7rem;
               text-align: center;
           } 
-          .product .prod-1 p {
-            /* padding: -4rem 0; */
-            margin: 1rem auto;
+          .product .prod-1 p , .product .prod-2 p {
+            margin: 0 auto;
             text-align: center;
+            line-height: 1.9;
+            font-size: 1.5rem;
         }
-        .product .prod-1 a {
-            /* padding: -4rem 0; */
-            margin: 1rem auto;
+        .product .prod-1 a , .product .prod-2 a{
+            margin: 4rem auto;
             text-align: center;
+            font-size: 1.8rem;
+            color: black;
         }
