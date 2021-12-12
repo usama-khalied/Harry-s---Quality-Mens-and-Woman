@@ -294,3 +294,36 @@ font-style: italic;
     text-align: center;
     font-style: italic;
 }
+/* ---container-5 start */
+.container-5 {
+    margin: 4rem 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.container-5 .sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    flex-direction: column;
+}
+.container-5 .sign h2 {
+
+    font-size: 2.4rem;
+    font-weight: 400;    
+    text-align: center;
+}
+.container-5 .sign p {
+    text-align: center;
+            margin: 4rem 0 0;
+    font-size: 1.4rem;
+    width: 70%;
+    line-height: 1.7;
+}
+.container-5 .sign .signature {
+margin: 3rem 0 ;
+}
+
