@@ -206,5 +206,38 @@ margin: 2rem 0;
 
         .container-4 {
             width: 100%;
+            padding: 4rem 0;
+            background-color: #F7F7F7;
         }
-        
+        .container-4 h2 {
+            margin: 4rem 0 2rem;
+            font-size: 2.4rem;
+            font-weight: 400;
+            
+            text-align: center;
+        }
+        .container-4 p {
+            text-align: center;
+            margin: 0 0 4rem;
+    font-size: 1.4rem;
+
+        }
+        .row-feaut {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+.col-feaut {
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.col-feaut img {
+    width: 100%;
+}
+.col-feaut .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
