@@ -225,6 +225,7 @@ margin: 2rem 0;
         .row-feaut {
             display: flex;
             justify-content: space-evenly;
+          
         }
 
 .col-feaut {
@@ -232,12 +233,64 @@ margin: 2rem 0;
     background-color: white;
     display: flex;
     flex-direction: column;
+    transition: .2s all;
+    margin: 0 0 4rem;
 }
 .col-feaut img {
     width: 100%;
+}
+.col-feaut h6 {
+    padding: .3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: red;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
 }
 .col-feaut .icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem 0;
+}
+.icon a {
+    margin: 0 1.2rem 0;
+    padding: 1rem 2rem;
+    background-color:#D1461C;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.icon .fas {
+    font-size: 2rem;
+    color: blue;
+    background-color: #F7F7F7;
+    padding: .6rem;
+}
+.col-feaut:hover {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.container-4 .feaut-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-4 h6 {
+    margin: 6rem 0 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.container-4 h6  span{
+font-style: italic;
+}
+.container-4 .feaut-col {
+    width: 27%;
+}
+.container-4 .feaut-col h5 {
+    text-align: center;
+    font-style: italic;
 }
