@@ -367,3 +367,13 @@ footer {
     padding: 0 6rem 0;
 
 }
+.foot-col h4 .fas {
+    margin: 0 1rem 0;
+}
+.foot-col .fab {
+    font-size: 2rem;
+    margin: 2rem .75rem 0;
+}
+.foot-col li span {
+    font-weight: 600;
+}
