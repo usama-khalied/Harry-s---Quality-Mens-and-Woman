@@ -362,4 +362,8 @@ footer {
 .foot-col:nth-child(1) li {
     text-align: center;
 }
+.foot-col:nth-child(1) {
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: 0 6rem 0;
 
+}
