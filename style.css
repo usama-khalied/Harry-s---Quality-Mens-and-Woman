@@ -83,6 +83,8 @@ ul li {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    padding: 2rem 0 0;
+
 }
 .container-1 .col-2 {
     background: url(images/1.jpg);
@@ -236,18 +238,13 @@ margin: 2rem 0;
     transition: .2s all;
     margin: 0 0 4rem;
 }
+.col-feaut .new {
+    margin: -2rem 0 0;
+}
 .col-feaut img {
     width: 100%;
 }
-.col-feaut h6 {
-    padding: .3rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background-color: red;
-    color: white;
-    text-align: left;
-    font-size: 1rem;
-}
+
 .col-feaut .icon {
     display: flex;
     justify-content: center;
@@ -280,7 +277,7 @@ margin: 2rem 0;
 }
 .container-4 h6 {
     margin: 6rem 0 2rem;
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -376,4 +373,20 @@ footer {
 }
 .foot-col li span {
     font-weight: 600;
+}
+/* --bottom-footer start */
+.bottom-footer ul {
+    display: flex;
+
+}
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding: 0 3rem 0;
+    background-color: #263645;
+}
+.bottom-footer ul li {
+    font-size: 1rem;
+    color:white
 }
